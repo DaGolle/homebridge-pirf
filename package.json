@@ -1,0 +1,32 @@
+{
+  "name": "homebridge-pirf",
+  "description": "Raspberry Pi Radio Frequency plugin for homebridge: https://github.com/nfarina/homebridge",
+  "author": "DaGolle",
+  "license": "ISC",
+  "version": "0.0.1",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin",
+    "homekit",
+    "openmotics"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "rpio": "^0.9.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DaGolle/homebridge-pirf.git"
+  },
+  "bugs": {
+    "url": "http://github.com/DaGolle/homebridge-pirf/issues"
+  },
+  "homepage": "https://github.com/DaGolle/homebridge-pirf#readme"
+}
